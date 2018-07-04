@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766971316745",
+    "firebase_url": "https://testdb-90b80.firebaseio.com",
+    "project_id": "testdb-90b80",
+    "storage_bucket": "testdb-90b80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766971316745:android:5943bf90e1a2c185",
+        "android_client_info": {
+          "package_name": "com.nipponit.demofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766971316745-3sat0hn4it6o630827mnqhcupcjt4onv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpCbUvvnbBA94-sQxP79WUfhqfF6OHRz8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
