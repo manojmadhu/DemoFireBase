@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         RootcontactRefernce.child("name").setValue("");
         ChildcontactReference = RootcontactRefernce.child("name");
 
+        //label for display connections
         lblname = (TextView)findViewById(R.id.lblname);
 
     }
