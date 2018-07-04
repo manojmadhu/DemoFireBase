@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         RootcontactRefernce.child("name").setValue("");
         ChildcontactReference = RootcontactRefernce.child("name");
 
-        //label for display connections
+        //label for display connections for test
         lblname = (TextView)findViewById(R.id.lblname);
 
     }
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String name = dataSnapshot.getValue(String.class);
-                lblname.setText(name.toString());
+                lblname.setText(name);
 
             }
 
